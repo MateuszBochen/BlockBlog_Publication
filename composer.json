@@ -1,0 +1,28 @@
+{
+    "name": "blockblog/Apps/Publications",
+    "description": "BlockBlog MySQL Library",
+    "homepage": "",
+    "type": "library",
+    "keywords": [
+        "BlockBlog",
+        "Publications"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateusz Bochen",
+            "email": "",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlockBlog\\": "src/"
+        }
+    }
+}
